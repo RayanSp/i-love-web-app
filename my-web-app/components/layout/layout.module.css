@@ -1,0 +1,27 @@
+.Header {
+    background-color: #E3A6A6;
+    color: black;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 2rem; */
+}
+
+.Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.SectionTitle {
+    margin-bottom: 0;
+}
+
+.SectionText {
+    text-align: center;
+    width: 20rem;
+}
+
+.SpanText {
+    color: red;
+}
