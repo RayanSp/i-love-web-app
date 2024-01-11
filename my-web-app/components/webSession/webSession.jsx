@@ -1,18 +1,15 @@
-import styles from "./webSession.module.css";
-import Link from "next/link";
+import styles from "./WebSession.module.css";
 
-export default function Layout({ children }) {
+export default function WebSession() {
   return (
     <>
       <main>
         <section className={styles.webSection}>
-          <link href="#">
             <img
               className={styles.img}
               src="/scrum.jpg"
               alt="picture of scrum methode"
             ></img>
-          </link>
           <h2>Scrum crash course</h2>
         </section>
       </main>

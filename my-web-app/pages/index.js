@@ -1,12 +1,12 @@
 import Layout from "../components/Layout/Layout";
-import webSession from "../components/webSession/webSession";
+import WebSession from "../components/WebSession/WebSession";
 
 
 export default function Home() {
   return (
     <>
       <Layout>
-        <webSession></webSession>
+        <WebSession></WebSession>
       </Layout>
     </>
   );
