@@ -1,0 +1,70 @@
+.WebSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2em;
+    align-items: center;
+    width: 100%;
+    gap: 5em;
+}
+
+.WebArticle {
+    margin-top: 1em;
+    align-items: center;
+}
+
+.ImgCrashCourse {
+    width: 20em;
+    height: auto;
+    border: 2px solid black;
+    padding-bottom: 0;
+}
+
+.ScrumTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    color: red;
+}
+
+.ScrumDate {
+    opacity: 60%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ScrumNotes {
+    margin-top: 0.3;
+    width: 20em;
+}
+
+.ReadMore {
+    color: red;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.ReadMore:hover {
+    border-bottom: 2px solid red;
+}
+
+@media (max-width: 1200px){
+    .WebSection{
+        display: flex;	
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 800px){
+    .WebSection{
+        display: flex;	
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+  }

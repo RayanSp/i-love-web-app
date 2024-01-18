@@ -15,6 +15,7 @@ export default function Layout({ children }) {
           </p>
         </section>
       </header>
+      <main>{children}</main>
     </>
   );
 }
