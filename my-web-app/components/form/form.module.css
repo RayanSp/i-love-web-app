@@ -1,0 +1,9 @@
+.FormSection {
+    display: flex; 
+    margin-top: 5em;
+    width: 30em;
+}
+
+.FieldsetForm {
+    justify-content: center;
+}
