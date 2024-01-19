@@ -24,15 +24,15 @@ export default function WebSession() {
 
         <article className={styles.WebArticle}>
           <img
-            className={styles.ImgCrashCourse}
-            src="/scrum.jpg"
-            alt="picture of scrum methode"
+            className={styles.ImgAccessibility}
+            src="/accessbility.webp"
+            alt="picture accessibility"
           ></img>
-          <h2 className={styles.ScrumTitle}>We Love Web</h2>
-          <p className={styles.ScrumDate}>29 November 2023</p>
+          <h2 className={styles.ScrumTitle}>Accessibility</h2>
+          <p className={styles.ScrumDate}>19 Januari 2024</p>
           <p className={styles.ScrumNotes}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Fenna gaf een talk over accessiility, hier liet zij zien hoe ze
+            accesibility toevoegd aan haar projecten met een aantal voorbeelden. 
           </p>
           <a href="#" className={styles.ReadMore}>
             Read More ▶
@@ -55,7 +55,6 @@ export default function WebSession() {
             Read More ▶
           </a>
         </article>
-
       </section>
     </>
   );

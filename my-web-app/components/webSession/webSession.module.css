@@ -35,6 +35,12 @@
     padding-bottom: 0;
 }
 
+.ImgAccessibility {
+    width: 20em;
+    height: 12.5em;
+    border: 2px solid black;
+}
+
 .ScrumTitle {
     margin-top: 0;
     margin-bottom: 0;

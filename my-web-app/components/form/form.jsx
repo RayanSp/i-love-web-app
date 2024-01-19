@@ -4,13 +4,15 @@ export default function Form() {
   return (
     <>
       <section className={styles.FormSection}>
-        <fieldset className={styles.FieldsetForm}>
+        <div className={styles.DivForm}>
+          <h2>Voeg een talk toe...</h2>  
             <form action="#" className={styles.WebNotes}>
                 <input type="text" className={styles.InputTitle} placeholder="We Love Web Title"></input>
                 <input type="date" className={styles.InputDate}></input>
-                <textarea className={styles.InputNotes} placeholder="Your notes..." cols="40" row="5"></textarea>
+                <textarea className={styles.InputNotes} placeholder="Your notes..." cols="20" row="5"></textarea>
+                <button type="submit" className={styles.SendBtn}>Submit</button>
             </form>
-        </fieldset>
+        </div>
       </section>
     </>
   );
