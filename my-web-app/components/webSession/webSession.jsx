@@ -17,23 +17,24 @@ function ProductsPage() {
 
 
 export default function WebSession() {
-  function togglePopup() {
-    console.log("Toggle popup function is called");
-    if (typeof document !== "undefined") {
-      const PopUp = document.getElementById("popup-1");
-      if (PopUp) {
-        PopUp.classList.toggle("active");
-        PopUp.classList.toggle("Overlay");
-        PopUp.classList.toggle("Content");
-        PopUp.classList.toggle("PopUp");
-        console.log("test")
-      }
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const togglePopup = () => {
+    setPopupOpen(!isPopupOpen);
+  };
+
+  useEffect(() => {
+    if (isPopupOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
     }
-  }
+  }, [isPopupOpen]);
+
   return (
     <>
-      <div id="popup-1" className={styles.PopUp}>
-        <div className={styles.Overlay}></div>
+      <div id="popup-1" className={`${styles.PopUp} ${isPopupOpen ? styles.active : ''}`}>
+        <div className={styles.Overlay} onClick={togglePopup}></div>
         <div className={styles.Content}>
           <button className={styles.CloseBtn} onClick={togglePopup}>
             &times;
