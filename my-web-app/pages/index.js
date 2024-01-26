@@ -19,7 +19,6 @@ function ProductsPage() {
   return (
     <>
       <Layout>
-        {/* <h1>{notes.title}</h1> */}
         <WebSession></WebSession>
         <Form></Form>
       </Layout>
