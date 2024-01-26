@@ -1,6 +1,6 @@
-import Layout from "../components/Layout/Layout";
-import WebSession from "../components/WebSession/WebSession";
-import Form from "../components/Form/Form";
+import Layout from "../components/Layout/Layout.jsx";
+import WebSession from "../components/WebSession/WebSession.jsx";
+import Form from "../components/Form/Form.jsx";
 import { useEffect, useState } from 'react';
 import { getProducts } from './api/graphql';
 
