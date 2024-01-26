@@ -92,9 +92,9 @@ export default function WebSession() {
 
         <article className={styles.WebArticle}>
           <img
-            className={styles.ImgCrashCourse}
-            src="/scrum.jpg"
-            alt="picture of scrum methode"
+            className={styles.ImgWeb}
+            src="/WebsiteLove.png"
+            alt="picture"
           ></img>
           <h2 className={styles.ScrumTitle}>We Love Web</h2>
           <p className={styles.ScrumDate}>29 November 2023</p>

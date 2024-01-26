@@ -35,6 +35,12 @@
     padding-bottom: 0;
 }
 
+.ImgWeb {
+    width: 20em;
+    height: 12.5em;
+    border: 2px solid black;
+}
+
 .ImgAccessibility {
     width: 20em;
     height: 12.5em;

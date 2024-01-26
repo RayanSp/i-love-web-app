@@ -16,6 +16,7 @@
 .WebTitle {
     margin-bottom: 0;
     animation: breathe 3500ms infinite forwards;
+    animation-delay: 2.6s;
 }
 
 @keyframes breathe {
@@ -26,6 +27,7 @@
         transform: scaleX(1) scaleY(1);
     }
 }
+
     
 .SectionText {
     text-align: center;
@@ -38,7 +40,7 @@
 
 .WebTitle span {
     display: inline-block;
-    animation: spin 2s;
+    animation: spin 1s forwards;
 }
 
 .WebTitle span:nth-child(1) {
@@ -83,11 +85,12 @@
 
 @keyframes spin {
     0% {
-        transform: translateY(-100%);
         opacity: 0;
+        transform: translateY(-100%);
+        
     }
     100% {
-        transform: translateY(0);
         opacity: 1;
+        transform: translateY(0);  
 }
 }
