@@ -1,4 +1,23 @@
-> _Fork_ deze leertaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+## Beschrijving
+Dit is een Webapp voor het bijhouden van de We ♥ Web presentaties, congressen, meet-ups en nieuwe dingen die ik geleerd heb kan bijhouden.
+
+## Setup
+
+https://nextjs.org/docs/getting-started/installation
+
+Setup:
+> npx create-next-app@latest
+
+Install dependencies:
+> npm install
+
+Start localhost:
+> npm run dev
+
+Build application:
+> npm run build
+
+
 
 ## Licentie
 
