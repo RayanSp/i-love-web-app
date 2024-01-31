@@ -1,5 +1,5 @@
 ## Beschrijving
-Dit is een Webapp voor het bijhouden van de We ♥ Web presentaties, congressen, meet-ups en nieuwe dingen die ik geleerd heb kan bijhouden.
+Een webapp, waar de we love web presentaties, genoteerd worden. Hierin staan mijn persoonlijke notites van de talks. 
 
 ## Setup
 
